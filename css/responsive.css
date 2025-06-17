@@ -2,9 +2,6 @@
 
 -La grandezza del titolo diventa più grande
 
-
--l'immagine nella descrizione della ricetta viene circondata dal testo */
-
 /* Soluzione qui */
 
 /* Tablet */
@@ -48,10 +45,34 @@
 
 /* Modalità Desktop(sopra i 992px)
 
--La grandezza el titolo della ricetta aumenta ancora di più
--Le informazioni della ricetta tornano a disporsi una sotto l'altra
--Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro
+-La grandezza e il titolo della ricetta aumentano ancora di più
 -Compaiono i nomi delle piattaforme social
 -Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti */
 
 /* Desktop */
+
+@media screen and (min-width: 992px) {
+  .quick-notes ul {
+    display: block;
+  }
+
+  .quick-notes li {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+  }
+
+  .recipe-card {
+    display: flex;
+    width: 100%;
+  }
+
+  .recipe-video {
+    width: 70%;
+  }
+
+  .recipe-info {
+    width: 30%;
+  }
+
+}
