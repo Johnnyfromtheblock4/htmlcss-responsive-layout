@@ -36,6 +36,9 @@ compare il banner pubblicitario
     width: calc(100% / 5);
   }
 
+  .ads {
+    display: block;
+  }
 
 }
 
