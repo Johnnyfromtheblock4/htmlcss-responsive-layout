@@ -1,6 +1,5 @@
 /* Modalità Tablet (sopra i 768px)
 
--Il padding del contenuto principale della pagina aumenta
 -Compare il testo "(Dolce Tradizionale)"
 -La grandezza del titolo diventa più grande
 -Le informazioni della ricetta sotto il video si dispongono a griglia
@@ -18,6 +17,10 @@ compare il banner pubblicitario
 
   .container {
     padding: 30px;
+  }
+
+  .recipe-origin {
+    display: inline;
   }
 
 }
