@@ -1,17 +1,17 @@
 /* Soluzione qui */
 
-/* Modalità Large Mobile (576px)
-
-l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px,
-I bottoni social si allagano già su dispositivi mobile più grandetti (576px) */
-
 /* Large Mobile */
 
+@media screen and (min-width: 576px) {
+  .clearfix img {
+    float: left;
+    margin-right: 15px;
+  }
 
-
-/* Modalità Tablet (sopra i 768px)
-
--La grandezza del titolo diventa più grande
+  .social-networks .btn {
+    width: calc(100% / 5);
+  }
+}
 
 
 /* Tablet */
@@ -56,10 +56,6 @@ I bottoni social si allagano già su dispositivi mobile più grandetti (576px) *
   }
 
 }
-
-/* Modalità Desktop(sopra i 992px)
-
--La grandezza e il titolo della ricetta aumentano ancora di più
 
 /* Desktop */
 
