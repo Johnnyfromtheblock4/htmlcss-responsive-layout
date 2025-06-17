@@ -1,6 +1,7 @@
 /* Modalità Tablet (sopra i 768px)
 
 -La grandezza del titolo diventa più grande
+
 -I bottoni social si allargano
 compare il banner pubblicitario
 -l'immagine nella descrizione della ricetta viene circondata dal testo */
@@ -29,6 +30,10 @@ compare il banner pubblicitario
 
   .quick-notes li {
     width: calc(100% / 3 - 10px);
+  }
+
+  .social-networks .btn {
+    width: calc(100% / 5);
   }
 
 
