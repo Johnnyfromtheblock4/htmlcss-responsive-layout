@@ -1,8 +1,6 @@
 /* Modalità Tablet (sopra i 768px)
 
--Compare il testo "(Dolce Tradizionale)"
 -La grandezza del titolo diventa più grande
--Le informazioni della ricetta sotto il video si dispongono a griglia
 -I bottoni social si allargano
 compare il banner pubblicitario
 -l'immagine nella descrizione della ricetta viene circondata dal testo */
@@ -22,6 +20,17 @@ compare il banner pubblicitario
   .recipe-origin {
     display: inline;
   }
+
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .quick-notes li {
+    width: calc(100% / 3 - 10px);
+  }
+
 
 }
 
