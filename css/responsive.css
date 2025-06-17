@@ -57,9 +57,7 @@
   }
 
   .quick-notes li {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 0px;
+    width: 100%;
   }
 
   .recipe-card {
