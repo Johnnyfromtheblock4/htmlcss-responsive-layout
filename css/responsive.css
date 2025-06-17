@@ -2,8 +2,7 @@
 
 -La grandezza del titolo diventa più grande
 
--I bottoni social si allargano
-compare il banner pubblicitario
+
 -l'immagine nella descrizione della ricetta viene circondata dal testo */
 
 /* Soluzione qui */
@@ -38,6 +37,11 @@ compare il banner pubblicitario
 
   .ads {
     display: block;
+  }
+
+  .clearfix img {
+    float: left;
+    margin-right: 15px;
   }
 
 }
